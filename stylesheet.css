@@ -1,0 +1,101 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: avenir-next;
+}
+.atas {
+    padding: 7.8px 0;
+    background-color: #5f9ea0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+.container:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+header h1 {
+    padding: 15px 0;
+    float: left;
+    color: darkcyan;
+    display: block;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+} 
+header ul li a:hover {
+    background-color: #5f9ea0;
+    color: #ffffff;
+}
+.selected {
+    background-color: #5f9ea0;
+    color: #ffffff;
+}
+.bawah {
+    background-color: #5f9ea0;
+    height: 60px;
+}
+.bawah h3 {
+    color: #ffffff;
+    float: left;
+    padding: 18px 20px;
+    font-family: courier;
+}
+.materi {
+    font-family: arial;
+    height: 320px;
+    background-color: aliceblue;
+}
+.materi h3 {
+    font-family: arial;
+    padding: 20px 0;
+    text-align: center;
+    color: #044949;
+}
+.materi p {
+    font-family: arial;
+    padding: 5px 30%;
+    color: black;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.materi img {
+    padding-top: 50px;
+    padding-left: 50px;
+    float: left;
+}
+.tombol {
+    padding: 20px 0;
+    height: 110px;
+    background-color: aliceblue;
+}
+.tombol a {
+    padding: 10px 10px;
+    float: right;
+}
+.footer {
+    padding: 15px 0;
+    background-color: rgb(41, 83, 83);
+    color: #ffffff;
+    text-align: center;
+    font-family: courier;
+}
+.footer p {
+    padding: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 11.5px;
+}
